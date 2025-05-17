@@ -1,2 +1,2 @@
 rootProject.name = 'spring-study-missions'
-include 'di', 'hellorestapi'
+include 'di', 'hellorestapi', 'crudex'

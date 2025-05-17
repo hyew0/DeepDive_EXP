@@ -9,3 +9,4 @@
 - 간단한 웹 페이지와 REST API 엔드포인트 구현
   - 기본 웹 페이지를 설정하고 @RestController를 사용하여 간단한 REST API 엔드포인트를 구현합니다. 
   - 예를 들어, “Hello, World” 메시지를 반환하는 API를 만듭니다. 
+

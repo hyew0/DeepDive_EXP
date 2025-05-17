@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/crudex.main.iml" filepath="$PROJECT_DIR$/.idea/modules/crudex.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellorestapi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hellorestapi.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-start-missions.iml" filepath="$PROJECT_DIR$/spring-start-missions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transaction.main.iml" filepath="$PROJECT_DIR$/.idea/modules/transaction.main.iml" />
     </modules>
   </component>
 </project>

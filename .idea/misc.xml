@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/crudex" />
     <file type="web" url="file://$PROJECT_DIR$/di" />
     <file type="web" url="file://$PROJECT_DIR$/hellorestapi" />
+    <file type="web" url="file://$PROJECT_DIR$/transaction" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />

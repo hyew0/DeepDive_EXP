@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>결제하기</title>
+</head>
+<body>
+<h1>결제 테스트</h1>
+
+<label for="method">결제 방식:</label>
+<select id="method">
+    <option value="cardPayment">카드</option>
+    <option value="bankTransfer">계좌이체</option>
+    <option value="pointPayment">포인트</option>
+</select><br><br>
+
+<label for="amount">금액:</label>
+<input type="number" id="amount" min="0"><br><br>
+
+<button onclick="submitPayment()">결제하기</button>
+
+<p id="result"></p>
+
+<script>
+    function submitPayment() {
+        const method = document.getElementById("method").value;
+        const amount = document.getElementById("amount").value;
+
+        fetch("/pay", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ method, amount })
+        })
+            .then(res => res.text())
+            .then(text => {
+                document.getElementById("result").innerText = text;
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById("result").innerText = "결제 실패";
+            });
+    }
+</script>
+</body>
+</html>
